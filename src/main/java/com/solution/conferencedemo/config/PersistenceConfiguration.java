@@ -15,15 +15,17 @@ import java.sql.SQLException;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
-    public DataSource dataSource(){
-        DataSourceBuilder<?> builder = DataSourceBuilder.create();
-        builder.url("jdbc:mysql://localhost:3306/conference_demo");
-        builder.username("spring-start");
-        builder.password("Brili#505");
+//    @Bean
+//    public DataSource dataSource(){
+//        DataSourceBuilder<?> builder = DataSourceBuilder.create();
+//        builder.url("jdbc:mysql://localhost:3306/conference_demo");
+//        builder.username("spring-start");
+//        builder.password("Brili#505");
+//
+//        System.out.println("My custom datasource bean has been initialized and set");
+//
+//        return builder.build();
+//    }
 
-        System.out.println("My custom datasource bean has been initialized and set");
 
-        return builder.build();
-    }
 }
